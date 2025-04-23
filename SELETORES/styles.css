@@ -1,16 +1,16 @@
 .titulo-principal {
     margin-bottom: 20px; 
-    color: blue;    
+    color: #ff0000;    
 }
 
 .destaque {
-    color: #0f0; 
-    background-color: yellow;
+    color: rgb(0, 0, 0); 
+    background-color: rgb(255, 0, 0);
 }
    
 #especial{
     font-style: italic; 
-    border-left: 3px solid green; 
+    border-left: 3px solid rgb(255, 0, 0); 
     padding-left: 5px;
 }
 
@@ -19,11 +19,11 @@ p{
 }
 
 .titulo-bloco {
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid rgb(255, 0, 0);
 }
 
 p{
-    background-color: lightgray;
+    background-color: rgb(255, 0, 0);
 }
 
 .titulo-bloco{
@@ -39,9 +39,9 @@ p{
 }
 
 .lista-itens .destaque{
-   background-color: lightblue; 
+   background-color: rgb(255, 0, 0); 
 }
 
 #ultimo-item{
-    color: darkblue;
+    color: rgb(255, 0, 0);
 }
