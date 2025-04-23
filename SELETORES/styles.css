@@ -1,0 +1,47 @@
+.titulo-principal {
+    margin-bottom: 20px; 
+    color: blue;    
+}
+
+.destaque {
+    color: #0f0; 
+    background-color: yellow;
+}
+   
+#especial{
+    font-style: italic; 
+    border-left: 3px solid green; 
+    padding-left: 5px;
+}
+
+p{
+    line-height: 1.6;
+}
+
+.titulo-bloco {
+    border-bottom: 2px solid gray;
+}
+
+p{
+    background-color: lightgray;
+}
+
+.titulo-bloco{
+    font-family: Arial, sans-serif;
+}
+
+p{
+    padding: 10px;
+}
+
+.item{
+    margin-bottom: 5px;
+}
+
+.lista-itens .destaque{
+   background-color: lightblue; 
+}
+
+#ultimo-item{
+    color: darkblue;
+}
