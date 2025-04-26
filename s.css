@@ -53,3 +53,43 @@ footer {
     padding: 30px;
 
 }
+
+.imgrd{
+    justify-content;
+    border: color  #6200ea;
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+.lingugens2{
+    display: flex; 
+    text-align: center;
+    background-color: #ffffff;
+    padding:1px;
+  color: #6200ea;
+  text-align:justify;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    text-align: center;
+    background-color: #6200ea;
+    padding:1px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sobremin {
+    font-weight: bold;
+    padding: 3px;
+    display: flex;
+    text-align:justify;
+    color: #6200ea;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.icones {
+    display: flex;
+    justify-content: center; 
+    gap: 10px;
+  }
