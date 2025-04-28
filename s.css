@@ -63,11 +63,11 @@ footer {
 
 }
 .lingugens2{
+    justify-content: center;
     display: flex;
     background-color: #ffffff;
     padding:1px;
   color: #6200ea;
-  text-align:center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 h2{
