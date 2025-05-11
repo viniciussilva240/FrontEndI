@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: auto;
+    padding: 0;
+    color: #000000;
+}
+
+header {
+    background-color: #111;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f39c12;
+}
+
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+
+
+section img {
+    width: 300px;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #111;
+    padding: 20px;
+    margin-top: 90px;
+}
+
+.mapan {
+    text-align: center;
+
+}
+
+.personagem {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 2%
+}
+
+.personagem img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.personagem h2 {
+    padding: 1px;
+    background-color: #111;
+    color: #f4b400;
+}
+
+.mapan h2 {
+    color: #f4b400;
+    padding: 1%;
+    background-color: #111;
+}
+
+.e h2 {
+    color: #f4b400;
+    padding: 1px;
+    background-color: #111;
+}
+
+.e h3 {
+    color: #f4b400;
+}
+
+
+
+.car h2{
+    padding: 1%;
+    background-color: #111;
+    color: #f4b400;
+}
+
+.car {
+    display: flex;
+    align-items: center;
+}
+
+.t img{
+    border: 2px solid #111;
+}
