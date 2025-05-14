@@ -109,3 +109,15 @@ footer {
 .t img{
     border: 2px solid #111;
 }
+
+a:hover {
+    background-color: #ffffff;
+    color: #000;
+    border-radius: 25%;
+        padding: 10px 20px;
+    border-radius:  25px;
+}
+
+.imgf {
+    height: 50px;
+}
