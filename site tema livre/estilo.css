@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #ebe8e8;
+    background-image: url(./capa/forza-horizon-4-4k-porsche-935-m5sywkjfyh3ku7p2.jpg);
     margin: auto;
     padding: 0;
     color: #000000;
@@ -113,8 +113,7 @@ footer {
 a:hover {
     background-color: #ffffff;
     color: #000;
-    border-radius: 25%;
-        padding: 10px 20px;
+    padding: 10px 20px;
     border-radius:  25px;
 }
 
@@ -127,3 +126,19 @@ a:hover {
     background-color: #111;
 }
 
+.curiosidades img{
+    height: 400px;
+    width: auto;
+    align-items: center;
+    padding: 40px;
+}
+
+.curiosidades h2{
+    background-color: #111;
+    text-align: center;
+    color:#f4b400;
+}
+
+.secreto {
+    color: #111;
+}
