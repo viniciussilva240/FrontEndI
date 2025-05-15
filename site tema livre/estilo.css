@@ -43,6 +43,7 @@ main {
 
 
 section img {
+    padding: 0%;
     width: 300px;
     border-radius: 8px;
 }
