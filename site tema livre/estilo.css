@@ -144,3 +144,19 @@ a:hover {
     color: #111;
 }
 
+.D h2 {
+    color: #f4b400;
+    background-color: #111;
+    text-align: center;
+}
+.D h3{
+    color: #f4b400;
+    background-color: #111;
+    text-align: center;
+}
+
+.m {
+   border-radius: 20px;
+   position: relative;
+   left:180px;
+}
