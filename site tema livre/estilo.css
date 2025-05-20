@@ -7,8 +7,8 @@ body {
 }
 
 header {
-    background-color: #111;
-    color: #f39c12;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: rgb(226, 55, 125);
     padding: 20px;
     text-align: center;
 }
@@ -23,47 +23,41 @@ nav ul {
 }
 
 nav a {
-    color: white;
+    color: rgb(226, 55, 125);
     text-decoration: none;
     font-weight: bold;
-}
-
-nav a:hover {
-    color: #f39c12;
 }
 
 main {
     max-width: 1000px;
     margin: 30px auto;
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.6);
     padding: 20px;
     border-radius: 8px;
+    color: #fff;
 }
 
-
-
 section img {
-    padding: 0%;
     width: 300px;
     border-radius: 8px;
 }
 
 footer {
-    background-color: #111;
+    background-color: rgba(0, 0, 0, 0.6);;
     padding: 20px;
     margin-top: 90px;
 }
 
 .mapan {
     text-align: center;
-
+    
 }
 
 .personagem {
     padding: 15px;
     display: flex;
     align-items: center;
-    gap: 2%
+    gap: 2%;
 }
 
 .personagem img {
@@ -73,90 +67,85 @@ footer {
 }
 
 .personagem h2 {
-    padding: 1px;
     background-color: #111;
-    color: #f4b400;
+    color: rgb(226, 55, 125);
+    text-align: center;
+    padding: 5px;
 }
 
 .mapan h2 {
-    color: #f4b400;
-    padding: 1%;
     background-color: #111;
+    color: rgb(226, 55, 125);
+    text-align: center;
+    padding: 5px;
 }
 
 .e h2 {
-    color: #f4b400;
-    padding: 1px;
+    color: rgb(226, 55, 125);
+    text-align: center;
+    padding: 5px;
+}
+
+.car h2 {
     background-color: #111;
+    color: rgb(226, 55, 125);
+    text-align: center;
+    padding: 5px;
 }
 
-.e h3 {
-    color: #f4b400;
-}
-
-
-
-.car h2{
-    padding: 1%;
+.curiosidades h2 {
     background-color: #111;
-    color: #f4b400;
+    color: rgb(226, 55, 125);
+    text-align: center;
+    padding: 5px;
 }
+
+.D h2 {
+    background-color: #111;
+    color: rgb(226, 55, 125);
+    text-align: center;
+    padding: 5px;
+}
+
+.D h3 {
+    background-color: #111;
+    color: rgb(226, 55, 125);
+    text-align: center;
+    padding: 5px;
+}
+
+.ims h1 {
+    background-color: #111;
+    color: rgb(226, 55, 125);
+    text-align: center;
+    padding: 5px;
+}
+
 
 .car {
     display: flex;
     align-items: center;
 }
 
-.t img{
-    border: 2px solid #111;
-}
 
 a:hover {
     background-color: #ffffff;
     color: #000;
     padding: 10px 20px;
-    border-radius:  25px;
+    border-radius: 25px;
 }
 
-.imgf {
-    height: 50px;
-}
-.ims h1{
-    color: #f4b400;
-    text-align: center;
-    background-color: #111;
-}
-
-.curiosidades img{
+.curiosidades img {
     height: 400px;
     width: auto;
-    align-items: center;
     padding: 40px;
-}
-
-.curiosidades h2{
-    background-color: #111;
-    text-align: center;
-    color:#f4b400;
-}
-
-.secreto {
-    color: #111;
-}
-
-.D h2 {
-    color: #f4b400;
-    background-color: #111;
-    text-align: center;
-}
-.D h3{
-    color: #f4b400;
-    background-color: #111;
-    text-align: center;
+    display: block;
 }
 
 .m {
-   border-radius: 20px;
-   position: relative;
-   left:180px;
+    border-radius: 20px;
+    position: relative;
+    left: 180px;
+    opacity
 }
+
