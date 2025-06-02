@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:url(./classroom-by-alexander-vasyakin-v0-rlA4rQyWVTmbM11OLYlq3sxh0J9b9ggbs5S3sxgMsb8\ \(1\).png);
+}
+
+li{
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    margin: 300px;
+}
+
+
+a{
+    border: solid 5px wheat;
+    font-size: 20px;
+    background-color: RGB(206, 134, 80);
+    text-decoration: none;
+    color: RGB(82, 102, 106);
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+a:hover {
+    background-color: RGB(82, 102, 106);
+    color: RGB(252, 241, 233);
+}
