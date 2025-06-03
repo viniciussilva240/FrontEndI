@@ -7,14 +7,15 @@
 body{   
     background-size: cover;
     background-repeat: no-repeat;
-    background-image:url(./classroom-by-alexander-vasyakin-v0-rlA4rQyWVTmbM11OLYlq3sxh0J9b9ggbs5S3sxgMsb8\ \(1\).png);
+    background-image:url(./xue-xiao-nojiao-shi-kabegami-1920x1080_48.jpg);
 }
 
 li{
     text-align: center;
     list-style: none;
     text-decoration: none;
-    margin: 300px;
+    align-items: center;
+    margin: 100px;
 }
 
 
@@ -28,6 +29,18 @@ a{
     border-radius: 25px;
 }
 a:hover {
-    background-color: RGB(82, 102, 106);
-    color: RGB(252, 241, 233);
+    background-image: url(./imagem.png);
+    color: red;
+    background-size: cover ;
+    background-position: center;
+}
+
+.quadrado {
+  margin: 500px auto; 
+  width: 450px;  
+  border-radius: 50px;
+  background-image: url(./anime.gif);
+  background-size: cover;
+  background-position: center;
+  border: solid 10px wheat;
 }
