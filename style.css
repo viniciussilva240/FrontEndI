@@ -29,8 +29,9 @@ a{
     border-radius: 25px;
 }
 a:hover {
-    background-image: url(./imagem.png);
+    background-image: url(./confira-agora-20-imagens-assustadoras-da-internet-14.jpg);
     color: red;
+    text-transform: uppercase;
     background-size: cover ;
     background-position: center;
 }
