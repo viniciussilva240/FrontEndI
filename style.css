@@ -28,13 +28,24 @@ a{
     padding: 10px 20px;
     border-radius: 25px;
 }
-a:hover {
-    background-image: url(./confira-agora-20-imagens-assustadoras-da-internet-14.jpg);
-    color: red;
+.a1:hover {
+    background-image: url(./2bde7d14133968f97d6c4dd898edb989.gif);
+    color: rgb(0, 0, 0);
     text-transform: uppercase;
     background-size: cover ;
     background-position: center;
+    
 }
+.a2:hover {
+    background-image: url(./confira-agora-20-imagens-assustadoras-da-internet-14.jpg);
+    color: rgb(255, 0, 0);
+    text-transform: uppercase;
+    background-size: cover ;
+    background-position: center;
+    font-weight: lighter;
+}
+
+
 
 .quadrado {
   margin: 500px auto; 
@@ -44,4 +55,5 @@ a:hover {
   background-size: cover;
   background-position: center;
   border: solid 10px wheat;
+
 }
