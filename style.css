@@ -19,7 +19,7 @@ li{
 }
 
 
-a{
+.a1,.a2{
     border: solid 5px wheat;
     font-size: 20px;
     background-color: RGB(206, 134, 80);
@@ -29,11 +29,12 @@ a{
     border-radius: 25px;
 }
 .a1:hover {
-    background-image: url(./2bde7d14133968f97d6c4dd898edb989.gif);
-    color: rgb(0, 0, 0);
+    background-image: url(./fdd2726c56e7d9cd95ad83bef3365f38_w200.gif);
+    color: rgb(8, 184, 1);
     text-transform: uppercase;
     background-size: cover ;
     background-position: center;
+    font-weight: bold;
     
 }
 .a2:hover {
@@ -43,17 +44,29 @@ a{
     background-size: cover ;
     background-position: center;
     font-weight: lighter;
+    font-weight: bold;
 }
 
 
 
 .quadrado {
+  width: 100vw;
+  max-width: 800px;
   margin: 500px auto; 
-  width: 450px;  
   border-radius: 50px;
   background-image: url(./anime.gif);
   background-size: cover;
   background-position: center;
   border: solid 10px wheat;
 
+}
+
+.icones {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 20px;
+    background-color:RGB(206, 134, 80);
+    padding: 20px;
+    border: solid 5px wheat;
 }

@@ -1,0 +1,17 @@
+:root {
+    --corF: rgb(251, 255, 0);
+    --tamanhol: 20px
+}
+
+header{
+    background-color: var(--corF);
+    font-size: var(--tamanhol);
+    height: 101px;
+
+}
+
+.menup {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
