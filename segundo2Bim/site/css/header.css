@@ -1,17 +1,35 @@
 :root {
-    --corF: rgb(251, 255, 0);
-    --tamanhol: 20px
+    --corF: rgb(172, 172, 172);
+    --tamanhol: 20px;
 }
 
-header{
+header {
     background-color: var(--corF);
     font-size: var(--tamanhol);
     height: 101px;
-
 }
 
 .menup {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.logo {
+    height: 80px;
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100px;
+        height: 200vh;
+        margin: solid 2px black ;
+    }
+    a{
+        font-size: var(--tamanholinkmenu);
+    }
+    .log{height: 900px;}
 }

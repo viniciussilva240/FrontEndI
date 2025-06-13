@@ -1,0 +1,21 @@
+h1, p {
+    text-align: center;
+    color: white;
+}
+
+.r {
+    color: white;
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}
+
+label, input {
+    text-align: center;
+    color: white;
+}
+
+.rrrr {
+    border-radius: 25px;
+    background-color: rgb(41, 41, 46);
+}

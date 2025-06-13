@@ -1,0 +1,10 @@
+footer{
+    background-color: rgb(92, 92, 92);
+}
+
+@media screen and (max-height: 600px){
+    footer {
+        background-color: antiquewhite;
+    }
+    
+}

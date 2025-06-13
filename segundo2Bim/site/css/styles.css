@@ -1,0 +1,10 @@
+@media screen and (max-widht:600px){
+    main,
+    footer {
+        margin-left: 100px;
+    }
+    
+    main{
+        min-height: calc(100vh - 32px);
+    }
+}

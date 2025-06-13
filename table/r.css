@@ -1,0 +1,25 @@
+th {
+    background-color: rgb(170, 170, 182);
+    border: solid 3px black;
+    
+}
+
+tr, td{
+    background-color: rgb(179, 179, 179);
+    border: solid 3px black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: initial;
+    font-size: 2rem;
+    
+}
+
+.v {
+    text-align: center;
+}
+
+table{
+    padding-top: 50%;
+    min-height: 50vh;
+    margin: auto;
+    border-collapse: collapse;
+}
