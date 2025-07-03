@@ -89,10 +89,7 @@ section {
   border-radius: 100%;
   border: solid 1px rgb(255, 255, 255); 
 }
-#sobre p{
- width: 400px;
- height: 100px;
-}
+
 #linguagens img {
   height: 100px;
   width: 100px;
@@ -138,7 +135,7 @@ section {
   border-radius: 5px;
 }
 
-form {
+/*form {
   display: flex;
   flex-direction: column;
   gap: 16px; 
@@ -155,19 +152,16 @@ input {
 }
 
 button {
-  background-color: #33cc33;
+  background-color: #ff0000;
   color: white;
   padding: 11.2px; 
   border: none;
   cursor: pointer;
   border-radius: 5px;
   font-weight: bold;
-  box-shadow: 0 0 10px rgba(0, 255, 0, 0.4);
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.4);
 }
-
-button:hover {
-  background-color: #8ba78b;
-}
+*/
 
 footer {
   background-color: #1a1a1a;
@@ -186,15 +180,12 @@ footer ul {
 }
 
 footer a {
-  color: #ccc;
+  color: #ff0000;
   text-decoration: none;
 }
 
-footer a:hover {
-  color: #33cc33;
-}
 
-@media (max-width: 700px) {
+@media (max-width: 818px) {
   header {
     position: static;
     width: 100%;
