@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+li{
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+    margin: 100px;
+}
+
