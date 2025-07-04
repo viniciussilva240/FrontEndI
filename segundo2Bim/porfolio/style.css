@@ -59,7 +59,7 @@ section {
 }
 
 #inicio {
-  background-image: url(./espaco-foto-contemporanea-portfolio-professor-marcello-cavalcanti-02.jpg);
+  background-image: url(./espaco-foto-contemporanea-portfolio-professor-marcello-cavalcanti-16.jpg);
   border: solid 1px white;
   padding: 15px;
   height: 500px;
@@ -106,7 +106,6 @@ section {
   flex-wrap: wrap;
   gap: 32px; 
   justify-content: center;
-  flex-direction: column;
   align-items: center;
 }
 
@@ -131,9 +130,25 @@ section {
   
 }
 
+.card a {
+margin: 20px;
+text-decoration: none;
+color: #ffffff;
+background-color: #ff0000;
+border-radius: 25px;
+display: flex;
+align-items: center;
+justify-content: center;
+  text-align: center;
+}
+
+.card a:hover {
+  color: rgb(255, 0, 0);
+  background-color: #f0f0f0;
+}
+
 .card img {
   width: 100%;
-  height: 100%;
   border-radius: 5px;
 }
 
@@ -263,6 +278,7 @@ footer a {
     font-size: 14px;
   }
 
+
   #inicio img {
     height: 140px;
     width: 140px;
@@ -291,4 +307,15 @@ footer a {
   footer ul {
     gap: 12px;
   }
+  .card a{
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 444px) {
+  #linguagens img {
+    height: 100%;
+    width: 23%;
+}
+
 }
