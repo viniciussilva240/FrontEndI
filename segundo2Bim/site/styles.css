@@ -4,25 +4,24 @@
   box-sizing: border-box;
 }
 
+body, html {
+  height: 100%;
+}
+
 body {
-  background-image: url(./7\(1\).jpg);
-  background-repeat: no-repeat;      
-  background-position: center; 
+  display: flex;
+  flex-direction: column;
+  background: #111 url('./7(1).jpg') no-repeat center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #111;
   color: #eee;
 }
 
 header {
-  background-color: rgba(0, 0, 0, 0.288);
+  background-color: rgba(0, 0, 0, 0.3);
   padding: 16px 32px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-h2 {
-  text-align: center;
 }
 
 header h1 {
@@ -44,21 +43,26 @@ nav a:hover {
   padding: 5px;
 }
 
+h2 {
+  text-align: center;
+}
+
 main {
-  border-radius: 25px;
-  background-color: rgba(0, 0, 0, 0.288);
-  padding: 32px;
+  flex: 1;
   width: 100%;
-  max-width: 1200px;
-  margin: auto;
+  max-width: 1100px;
+  margin: 32px auto;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 40px;
+  border-radius: 20px;
+  backdrop-filter: blur(4px);
 }
 
 .intro img {
-  border-radius: 25px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
+  border-radius: 20px;
+  display: block;
   margin: 0 auto;
+  width: 100%;
   max-width: 400px;
 }
 
@@ -85,36 +89,26 @@ table tr:nth-child(even) {
 
 footer {
   background: #000;
-  text-align: center;
   padding: 16px;
-  margin-top: 32px;
-  color: #888;
-  font-size: 14.4px;
 }
 
 .com, .lio {
-  max-width: 200px;
-  align-items: center;
   display: flex;
-  margin: auto;
   justify-content: center;
-  text-align: center;
+  align-items: center;
+  max-width: 200px;
+  margin: auto;
   background-color: #ffa600;
-  font-size: 14px;
+  color: white;
+  padding: 10px 20px;
   font-weight: bold;
-  text-decoration: none;
-  color: #fff;
-  padding: 8px 15px;
   border-radius: 20px;
+  text-decoration: none;
 }
-
-
 
 .lio:hover {
-  color: white;
-  background-color: #ffa600;
+  background-color: #ff8c00;
 }
-
 
 form {
   display: flex;
@@ -123,32 +117,21 @@ form {
 }
 
 input, button {
-  padding: 8px;
+  padding: 10px;
   border: none;
-  border-radius: 4px;
+  border-radius: 6px;
+  font-size: 16px;
 }
 
-.maap:hover {
+input:focus, .maap:hover {
+ 
   border: 1px solid #ffa600;
 }
 
 button {
   background-color: #ffa600;
-  color: black;
+  color: #000;
   font-weight: bold;
-}
-
-body, html {
-  height: 100%;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-}
-
-main {
-  flex: 1;
 }
 
 .img2 {
@@ -158,19 +141,50 @@ main {
   width: 100%;
 }
 
-@media (max-width: 600px) {
-  nav {
+@media (max-width: 768px) {
+  header {
     flex-direction: column;
-    align-items: center;
+    text-align: center;
+  }
+
+  nav {
+    margin-top: 8px;
   }
 
   main {
-    padding: 16px;
-    border-radius: 0%;
+    padding: 24px;
+    margin: 16px;
+    max-width: 700px;
   }
 
   table, th, td {
     font-size: 14px;
+  }
+}
+
+@media (max-width: 716px) {
+  main {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 617px) {
+  body {
+    font-size: 15px;
+  }
+
+  main {
+    padding: 16px;
+    border-radius: 10px;
+    max-width: 300px;
+  }
+
+  .intro img {
+    max-width: 100%;
+  }
+
+  .com, .lio {
+    width: 100%;
   }
 }
 
