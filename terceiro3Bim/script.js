@@ -3,8 +3,8 @@ const p = document.querySelector('p');
 const input = document.querySelector('input');
 const cachorro = document.querySelector(".cachorro")
 const itens = document.querySelectorAll('li')
-const listadegames = document.querySelector(#listadegames)
-const lista = document.querySelector(#lista)
+const listadegames = document.querySelector(listadegames)
+const lista = document.querySelector(lista)
 
 
 // arroz.addEventListener('click', () => {
@@ -27,7 +27,14 @@ const lista = document.querySelector(#lista)
 itens.forEach(element => {
     itens.addEventListener('click', (ev) => {
         const alvo = ev.target
-        const eaipai = avlo.parentElement
+        const pai = avlo.parentElement
+        if (pai === listadegames) {
+            lista.appendchild(alvo)  
+        }
+        if (pai === lista) {
+            listadegames.appendchild(alvo)
+        }
+
 
     })
        
