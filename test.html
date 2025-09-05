@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Mudar cor com mouse</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+    }
+  </style>
+</head>
+<body>
+  <script>
+    document.addEventListener('mousemove', (event) => {
+      const x = event.clientX;
+      const y = event.clientY;
+
+      const red = x % 255;
+      const green = y % 255;
+      const blue = (x + y) % 255;
+
+      document.body.style.backgroundColor = `rgb(${red}, ${green}, ${blue})`;
+    });
+  </script>
+</body>
+</html>

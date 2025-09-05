@@ -1,0 +1,26 @@
+div {
+    display: flex;
+    justify-content: center;
+    gap: 20px
+}
+
+ul {
+    border: 2px solid black;
+    border-radius: 5px;
+    list-style-type: none;
+    padding: 10px;
+}
+
+li{
+    cursor: pointer;
+}
+
+.rgb {
+    border: 2px solid black;
+    padding: 200px;
+}
+
+.cachorro img {
+    max-width: 50px;
+    max-height: 50px;
+}
